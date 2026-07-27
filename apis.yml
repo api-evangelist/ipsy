@@ -1,8 +1,27 @@
 aid: ipsy
 name: Ipsy
-description: Ipsy is a company surfaced as a portfolio company of 500-global, bullpen-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  IPSY is a personalized beauty subscription company founded in 2011 by Michelle
+  Phan, Marcelo Camberos, and Jennifer Goldfarb. Members take a detailed beauty
+  quiz and receive monthly curated "Glam Bag" drops of deluxe samples and full-size
+  makeup, skincare, hair, and fragrance products across tiers (Original, Boxycharm,
+  and Ultimate). IPSY operates as a direct-to-consumer commerce and membership
+  platform under the BFA Industries umbrella; it exposes no public developer API,
+  running on internal GraphQL and REST services with Auth0-based consumer identity.
+  This API Evangelist profile tracks IPSY's public web, security, and identity
+  surface rather than a documented developer program.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn-cf.ipsy.com/contentAsset/image/3dec557d-7a11-45be-ae7a-1dd0b41b3918/fileAsset?byInode=1
 url: https://raw.githubusercontent.com/api-evangelist/ipsy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Beauty
+- Cosmetics
+- Subscription
+- E-commerce
+- Direct-to-Consumer
+- Personalization
+- Membership
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +50,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://ipsy.com
+  url: https://www.ipsy.com
+- type: Blog
+  url: https://www.ipsy.com/blog
+- type: HelpCenter
+  url: https://help.ipsy.com/hc/en-us
+- type: SignUp
+  url: https://www.ipsy.com/signup
+- type: PrivacyPolicy
+  url: https://www.ipsy.com/privacy
+- type: TermsOfService
+  url: https://www.ipsy.com/terms
+- type: Security
+  url: https://www.ipsy.com/vulnerability-disclosure
+- type: VulnerabilityDisclosure
+  url: security/ipsy-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/ipsy-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
