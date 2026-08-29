@@ -10,6 +10,17 @@ description: >-
   running on internal GraphQL and REST services with Auth0-based consumer identity.
   This API Evangelist profile tracks IPSY's public web, security, and identity
   surface rather than a documented developer program.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
